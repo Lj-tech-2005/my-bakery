@@ -1,0 +1,181 @@
+@media only screen and (min-width:0px) and (max-width:600px) {
+
+
+
+    .baking_item_containor h1 {
+
+        font-size: 40px;
+    }
+
+    .item-box {
+
+        width: 100%;
+
+    }
+
+
+}
+
+
+@media only screen and (min-width:600px) and (max-width: 768px) {
+
+
+
+    .baking_item_containor h1 {
+
+        font-size: 40px;
+    }
+
+    .item-box {
+
+        width: 50%;
+
+    }
+
+}
+
+
+@media only screen and (min-width:0px) and (max-width: 768px) {
+
+
+    .brand-new-containor-right {
+
+
+        display: none;
+    }
+
+    .brand-new-containor-left {
+
+        width: 100%;
+
+    }
+
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+
+    .baking_item_containor h1 {
+
+        font-size: 50px;
+    }
+
+
+
+    .item-box {
+
+        width: 50%;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px) {
+
+    #baricon {
+
+        display: none;
+    }
+
+    .topscrooll {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+
+
+    }
+}
+
+
+
+@media only screen and (min-width:0px) and (max-width:992px) {
+
+    .social-media-section {
+        display: none;
+
+    }
+
+
+    .containor nav ul {
+
+        flex-direction: column;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        background: rgba(0, 0, 0, 0.8);
+        width: 50vh;
+        height: 100vh;
+        color: white;
+        font-weight: 700;
+        gap: 30px;
+        padding: 30px 40px;
+        font-size: 13px;
+        transition: 0.8s;
+    }
+
+
+    .showmenubar {
+
+        left: 0px !important;
+
+    }
+
+    .overlay-menu {
+
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.8s;
+
+    }
+
+    .overlay-menushow {
+
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+
+
+
+    .change-you-containor-left {
+
+        width: 100%;
+        padding-left: 50px;
+        height: auto;
+    }
+
+    .change-you-containor-right {
+
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+
+
+
+    .sl-box {
+
+        width: 100%;
+
+    }
+
+}
