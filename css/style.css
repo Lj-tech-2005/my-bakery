@@ -41,7 +41,10 @@ a {
 .containor4,
 .containor5,
 .containor6,
-.containor7 {
+.containor7,
+.menu-tab-maxwidth,
+.chef-max-width,
+.contact-continor {
 
     max-width: 1140px;
     margin: auto;
@@ -95,6 +98,13 @@ a {
     font-weight: 500;
     font-size: 12px;
 }
+
+.containor nav ul li {
+
+    cursor: pointer;
+}
+
+
 
 
 .baking_item_containor {
@@ -747,7 +757,7 @@ footer {
     width: 100%;
     min-height: 70vh;
     background: #04091e;
-    margin-top: 140px;
+    margin-top: 90px;
 
 
 }
@@ -755,7 +765,7 @@ footer {
 .containor7 {
 
     padding-top: 140px;
-    padding-bottom:80px;
+    padding-bottom: 80px;
 }
 
 
@@ -774,6 +784,8 @@ footer {
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
+    padding-left: 25px;
+
 }
 
 
@@ -813,6 +825,7 @@ footer {
 
     font-size: 14px;
 
+
 }
 
 
@@ -850,4 +863,549 @@ footer {
     display: flex;
     gap: 30px;
     margin-top: 20px;
+}
+
+
+
+
+.containor7>p {
+
+    padding-left: 25px;
+    margin-top: 20px;
+
+}
+
+
+
+/* first page css complate */
+
+
+
+
+/* about page css start */
+
+
+
+.aboutpage-top-sec {
+
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/banner-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+.about-to-home {
+
+    max-width: 83.33333%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.about-to-home h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.about-to-home h6 {
+
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+/* about page css end */
+
+
+/* menu page css start */
+
+
+
+.menu-tab-section {
+
+    width: 100%;
+    background-image: url(../img/pattern-bg.jpg);
+    padding-top: 100px;
+
+
+}
+
+/* .menu-tab-maxwidth {
+
+
+    border: 2px solid green;
+
+} */
+
+
+
+.menu-btn-box {
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+
+.bt-click {
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 30px;
+    border-radius: 0px;
+    color: #222;
+    background-color: #fff;
+    cursor: pointer;
+
+
+}
+
+
+.bt-click-color {
+
+    background-color: #d1ab7f;
+    color: white;
+
+}
+
+
+.tab-main {
+
+    position: relative;
+}
+
+.tab-content-menu:nth-child(1) {
+
+    position: static;
+    visibility: visible;
+}
+
+
+.tab-content-menu {
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+
+
+}
+
+
+.tab-show {
+
+    visibility: visible;
+    z-index: 2;
+
+}
+
+
+
+.content-box {
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.content-box-left {
+
+    width: 70%;
+
+
+}
+
+.content-box-left h4 {
+
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #222;
+    font-weight: 600;
+
+}
+
+.content-box-left p {
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+
+}
+
+.content-box-right {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 30%;
+    padding-left: 40px;
+
+}
+
+.content-right-top {
+
+
+    font-size: 18px;
+    color: #222;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+
+}
+
+.content-right-bottom {
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #d1ab7f;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+
+
+/* menu page css end */
+
+/* team page css start */
+
+
+
+
+
+.chef-section {
+
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+
+
+
+.chef-max-width h1 {
+
+    font-size: 36px;
+    color: #222;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 90px;
+
+
+}
+
+.chef-max-width p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.chef-intro-containor {
+
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.chef-intro {
+
+    width: 269px;
+    min-height: 60vh;
+
+}
+
+
+.chef-img-box {
+
+    width: 265px;
+    height: 302px;
+    position: relative;
+}
+
+.chef-img-box img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.chef-hov {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(209, 171, 127, 0.8);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+
+}
+
+
+
+
+.chef-img-box:hover .chef-hov {
+
+    opacity: 1;
+
+}
+
+.intro-text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 265px;
+
+}
+
+.intro-text h1 {
+
+    font-size: 18px;
+    color: #222;
+    font-weight: 600;
+}
+
+.intro-text p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+
+/* team css end */
+
+
+
+/* contact us page css start */
+
+
+.contact-us-section {
+
+    width: 100%;
+    min-height: 130vh;
+
+
+}
+
+
+
+.contact-continor iframe {
+
+    width: 100%;
+    margin-top: 60px;
+
+
+}
+
+.details-continor {
+
+
+    min-height:50vh;
+    width: 100%;
+    margin-top:130px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.details-col {
+
+    min-height:30vh;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.home-addresh {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+
+
+}
+
+
+.home-addresh span {
+
+    font-size: 30px;
+    font-weight: 500;
+    color: #d1ab7f;
+}
+
+.home-addresh-right {
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+
+}
+
+.home-addresh-right h5 {
+
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.home-addresh-right p {
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+
+
+.details-continor form {
+    min-height: 30vh;
+    width: 63%;
+    display: flex;
+    gap:29px;
+
+}
+
+
+.form-left {
+
+    width: 340px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.form-left input {
+
+    padding: 15px;
+    font-size: 12px;
+    outline: none;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15sease-in-out, box-shadow 0.15sease-in-out;
+    color: #495057;
+}
+
+.form-left input:focus {
+
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-right {
+
+    width: 340px;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.form-right textarea {
+
+    outline: none;
+    border: 1px solid #ced4da;
+    font-size: 12px;
+    width:100%;
+    height:80%;
+    padding: 20px;
+}
+
+.form-right textarea:focus {
+
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, 0.25);
+}
+
+
+.form-right button{
+
+    color: #fff;
+    background: #d1ab7f;
+    border: 1px solid #d1ab7f;
+    display: inline-block;
+    outline: none;
+    padding:10px 20px 10px 20px;
+    font-size: .8em;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.form-right button:hover{
+
+   background-color: transparent;
+   color: #d1ab7f;
+
 }
