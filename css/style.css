@@ -116,7 +116,7 @@ a {
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 130px;
     flex-wrap: wrap;
     padding-bottom: 10px;
 
@@ -178,17 +178,16 @@ a {
 .second-section {
 
     width: 100%;
-    height: 100vh;
+    min-height: 60vh;
+    padding-top: 70px;
+    padding-bottom:40px;
+
 
 
 }
 
 
 
-.containor2 {
-
-    padding: 120px 0px;
-}
 
 
 .brand-new-containor {
@@ -206,7 +205,7 @@ a {
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     padding-left: 20px;
     padding-right: 20px;
 
@@ -945,12 +944,7 @@ footer {
 
 }
 
-/* .menu-tab-maxwidth {
 
-
-    border: 2px solid green;
-
-} */
 
 
 
@@ -1254,9 +1248,9 @@ footer {
 .details-continor {
 
 
-    min-height:50vh;
+    min-height: 50vh;
     width: 100%;
-    margin-top:130px;
+    margin-top: 130px;
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
@@ -1265,7 +1259,7 @@ footer {
 
 .details-col {
 
-    min-height:30vh;
+    min-height: 30vh;
     width: 33%;
     display: flex;
     flex-direction: column;
@@ -1322,7 +1316,7 @@ footer {
     min-height: 30vh;
     width: 63%;
     display: flex;
-    gap:29px;
+    gap: 29px;
 
 }
 
@@ -1330,7 +1324,7 @@ footer {
 .form-left {
 
     width: 340px;
-    height:auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -1359,7 +1353,7 @@ footer {
 .form-right {
 
     width: 340px;
-    height:50vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -1371,9 +1365,10 @@ footer {
     outline: none;
     border: 1px solid #ced4da;
     font-size: 12px;
-    width:100%;
-    height:80%;
+    width: 100%;
+    height: 80%;
     padding: 20px;
+    resize: none;
 }
 
 .form-right textarea:focus {
@@ -1386,14 +1381,14 @@ footer {
 }
 
 
-.form-right button{
+.form-right button {
 
     color: #fff;
     background: #d1ab7f;
     border: 1px solid #d1ab7f;
     display: inline-block;
     outline: none;
-    padding:10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
     font-size: .8em;
     text-align: center;
     font-weight: 500;
@@ -1403,9 +1398,9 @@ footer {
 
 }
 
-.form-right button:hover{
+.form-right button:hover {
 
-   background-color: transparent;
-   color: #d1ab7f;
+    background-color: transparent;
+    color: #d1ab7f;
 
 }

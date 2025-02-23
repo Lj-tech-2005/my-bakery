@@ -249,7 +249,7 @@
     }
 
 
-    .details-continor{
+    .details-continor {
 
         justify-content: center;
 
@@ -257,7 +257,7 @@
 
     .details-col {
 
-        width:70%;
+        width: 70%;
     }
 
     .details-continor form {
@@ -271,10 +271,33 @@
 
         width: 70%;
     }
-    
+
     .form-right {
 
-        width:70%;
+        width: 70%;
     }
 
+}
+
+
+
+@media only screen and (min-width:0px) and (max-width:350px) {
+   
+    .top-main-section{
+
+        height: 120vh;
+    }
+
+
+    .second-section{
+
+        
+        height:160vh;
+    }
+
+
+    .section-five {
+
+        height: 160vh;
+    }
 }
